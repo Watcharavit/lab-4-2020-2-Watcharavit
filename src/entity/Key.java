@@ -2,7 +2,7 @@ package entity;
 
 import logic.Sprites;
 
-public class Key extends Box{
+public class Key extends Box {
 
 	@Override
 	public int getSymbol() {

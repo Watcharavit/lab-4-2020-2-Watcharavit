@@ -18,7 +18,7 @@ public class Coin extends Entity implements Interactable {
 		// TODO Auto-generated method stub
 		remove();
 		GameController.addCoinCount(1);
-		return super.move(e.getDirection());
+		return true;
 	}
 
 }
